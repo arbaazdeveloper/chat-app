@@ -5,9 +5,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.user{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:39px;
+  color: #fff;
+}
+.user img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.user-card{
+  background: rgb(13, 115, 231);
+}
+.user-list{
+ 
+
+}
+.chat-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.chat-list{
+  text-align: center;
+}
+.chat-form{
+  position: absolute;
+  bottom: 0;
+  left:50;
+  margin: auto;
+  width: 100%;
+}
+.chat-form form input{
+  width:50%;
+  border-radius: 50px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+.chat-form form button{
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: rgb(10, 119, 243);
+  color: #fff;
+  border-radius: 5px;
 }
